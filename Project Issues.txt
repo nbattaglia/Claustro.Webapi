@@ -1,0 +1,9 @@
+http://www.joe-stevens.com/2011/10/02/a-mongodb-tutorial-using-c-and-asp-net-mvc/
+
+https://docs.asp.net/en/latest/security/cors.html
+https://manuel-rauber.com/2016/03/29/node-js-asp-net-core-1-0-a-usage-comparison-part-4-cross-origin-resource-sharing/
+mongod --dbpath D:\Dropbox\Temporal\claustro\db
+
+mongod --dbpath "c:\Users\nicolasba\Desktop\Proyectos\ejemplo claustro\db"
+
+https://mjomaa.com/computer-science/frameworks/asp-net-mvc/162-how-to-deploy-a-self-contained-net-core-app
