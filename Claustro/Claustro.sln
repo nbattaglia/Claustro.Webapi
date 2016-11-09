@@ -12,6 +12,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Claustro.Webapi", "src\Claustro.Webapi\Claustro.Webapi.xproj", "{5A8AC20B-8901-44A4-B349-BA992670D030}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Claustro.MongoRepository", "src\Claustro.MongoRepository\Claustro.MongoRepository.xproj", "{5486F558-76F5-4B9E-9582-E92DA95ABACB}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Claustro.Security", "src\Claustro.Security\Claustro.Security.xproj", "{CD362328-62C0-4E0E-9819-277BC103F7BA}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Claustro.Domain", "src\Claustro.Domain\Claustro.Domain.xproj", "{632115E8-7C75-46EA-9D99-3BE89FD7BC63}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,11 +28,26 @@ Global
 		{5A8AC20B-8901-44A4-B349-BA992670D030}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A8AC20B-8901-44A4-B349-BA992670D030}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A8AC20B-8901-44A4-B349-BA992670D030}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5486F558-76F5-4B9E-9582-E92DA95ABACB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5486F558-76F5-4B9E-9582-E92DA95ABACB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5486F558-76F5-4B9E-9582-E92DA95ABACB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5486F558-76F5-4B9E-9582-E92DA95ABACB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD362328-62C0-4E0E-9819-277BC103F7BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD362328-62C0-4E0E-9819-277BC103F7BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD362328-62C0-4E0E-9819-277BC103F7BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD362328-62C0-4E0E-9819-277BC103F7BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{632115E8-7C75-46EA-9D99-3BE89FD7BC63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{632115E8-7C75-46EA-9D99-3BE89FD7BC63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{632115E8-7C75-46EA-9D99-3BE89FD7BC63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{632115E8-7C75-46EA-9D99-3BE89FD7BC63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{5A8AC20B-8901-44A4-B349-BA992670D030} = {F428024E-06C9-4CD7-9E5F-E961845E7551}
+		{5486F558-76F5-4B9E-9582-E92DA95ABACB} = {F428024E-06C9-4CD7-9E5F-E961845E7551}
+		{CD362328-62C0-4E0E-9819-277BC103F7BA} = {F428024E-06C9-4CD7-9E5F-E961845E7551}
+		{632115E8-7C75-46EA-9D99-3BE89FD7BC63} = {F428024E-06C9-4CD7-9E5F-E961845E7551}
 	EndGlobalSection
 EndGlobal

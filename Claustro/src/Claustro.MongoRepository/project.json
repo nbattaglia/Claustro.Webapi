@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0-*",
+
+  "dependencies": {
+    "Claustro.Domain": "1.0.0-*",
+    "NETStandard.Library": "1.6.0",
+    "mongocsharpdriver": "2.3.0-rc1",
+    "MongoDB.Bson": "2.3.0-rc1",
+    "MongoDB.Driver": "2.3.0-rc1"
+  },
+
+  "frameworks": {
+    "netstandard1.6": {
+      "imports": "dnxcore50"
+    }
+  }
+}

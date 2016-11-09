@@ -1,1 +1,11 @@
-#:D:\Trabajos\otros uai\Claustro.Webapi\Claustro.\src\Claustro.Webapi\Claustro.Webapi.xproj
+#:D:\Trabajos\otros uai\Claustro.Webapi\Claustro\src\Claustro.Domain\Claustro.Domain.xproj
+#:D:\Trabajos\otros uai\Claustro.Webapi\Claustro\src\Claustro.Security\Claustro.Security.xproj
+D:\Trabajos\otros uai\Claustro.Webapi\Claustro\src\Claustro.Security\Claustro.Security.xproj|D:\Trabajos\otros uai\Claustro.Webapi\Claustro\src\Claustro.Domain\Claustro.Domain.xproj
+#:D:\Trabajos\otros uai\Claustro.Webapi\Claustro\src\Claustro.Webapi\Claustro.Webapi.xproj
+D:\Trabajos\otros uai\Claustro.Webapi\Claustro\src\Claustro.Webapi\Claustro.Webapi.xproj|D:\Trabajos\otros uai\Claustro.Webapi\Claustro\src\Claustro.Domain\Claustro.Domain.xproj
+D:\Trabajos\otros uai\Claustro.Webapi\Claustro\src\Claustro.Webapi\Claustro.Webapi.xproj|D:\Trabajos\otros uai\Claustro.Webapi\Claustro\src\Claustro.MongoRepository\Claustro.MongoRepository.xproj
+D:\Trabajos\otros uai\Claustro.Webapi\Claustro\src\Claustro.Webapi\Claustro.Webapi.xproj|D:\Trabajos\otros uai\Claustro.Webapi\Claustro\src\Claustro.Security\Claustro.Security.xproj
+D:\Trabajos\otros uai\Claustro.Webapi\Claustro\src\Claustro.MongoRepository\Claustro.MongoRepository.xproj|D:\Trabajos\otros uai\Claustro.Webapi\Claustro\src\Claustro.Domain\Claustro.Domain.xproj
+D:\Trabajos\otros uai\Claustro.Webapi\Claustro\src\Claustro.Security\Claustro.Security.xproj|D:\Trabajos\otros uai\Claustro.Webapi\Claustro\src\Claustro.Domain\Claustro.Domain.xproj
+#:D:\Trabajos\otros uai\Claustro.Webapi\Claustro\src\Claustro.MongoRepository\Claustro.MongoRepository.xproj
+D:\Trabajos\otros uai\Claustro.Webapi\Claustro\src\Claustro.MongoRepository\Claustro.MongoRepository.xproj|D:\Trabajos\otros uai\Claustro.Webapi\Claustro\src\Claustro.Domain\Claustro.Domain.xproj

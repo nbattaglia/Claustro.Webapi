@@ -1,3 +1,10 @@
 Claustro/src/Claustro.Webapi/project.lock.json
 Claustro/src/Claustro.Webapi/bin/
 Claustro/src/Claustro.Webapi/obj/
+Claustro/src/Claustro.MongoRepository/obj/Debug/netstandard1.6/dotnet-compile-csc.rsp
+Claustro/src/Claustro.MongoRepository/obj/
+project.lock.json
+Claustro/src/Claustro.MongoRepository/bin/
+Claustro/src/Claustro.Security/obj/
+Claustro/src/Claustro.Domain/obj/
+Claustro/src/Claustro.Domain/bin/
