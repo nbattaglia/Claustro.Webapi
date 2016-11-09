@@ -21,20 +21,35 @@ namespace Ejemplo.Api.Controllers
     public class AuthController : BaseController
     {
         IMongoRepository<User> _users;
-        public AuthController(IMongoRepository<User> users)
+        IMongoSession _session;
+        public AuthController(IMongoRepository<User> users, IMongoSession session)
         {
+            _session = session;
             _users = users;
         }
 
 
+
+        [AllowAnonymous]
+        [HttpGet("populate-data")]
+        public IActionResult Populate()
+        {
+
+            _session.Db.Client.DropDatabase("claustro");
+            CreateDefaults();
+
+            return Ok();
+        }
+
         private void CreateDefaults()
         {
+            
             User u = _users.GetAll().Where(x => x.Mail.Equals("admin@mail.com")).FirstOrDefault();
             if (u==null)
             {
                 u = new User();
                 u.Mail = "admin@mail.com";
-                u.Password = "1234";
+                u.Password = Cryptography.Hash("1234");
                 u.Username = "Admin";
                 u.Rol = Rol.Admin;
                 _users.SaveOrUpdate(u);

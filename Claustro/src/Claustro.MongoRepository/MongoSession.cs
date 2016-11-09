@@ -40,9 +40,11 @@ namespace Claustro.MongoRepository
             clientSettings.SslSettings.ServerCertificateValidationCallback = (sender, certificate, chain, errors) => true;
             _client = new MongoClient(clientSettings);
 
-
+           
                         //_client = new MongoClient(creds.uri);
             _db = _client.GetDatabase("claustro");
+
+            
         }
 
 
