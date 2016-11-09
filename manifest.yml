@@ -3,6 +3,6 @@ applications:
   memory: 512M
   instances: 1
   domain: mybluemix.net
-  name:uai-claustro-webapi
+  name: uai-claustro-webapi
   host: uai-claustro-webapi
   disk_quota: 2048M
