@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Ejemplo.Api.Controllers
 {
-    [Authorize]
+    //[Authorize]
     [Route("api/[controller]")]
     public class BaseController : Controller
     {
