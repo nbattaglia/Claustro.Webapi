@@ -29,7 +29,7 @@ namespace Claustro.Webapi
         {
             var builder = new ConfigurationBuilder()
                  .SetBasePath(env.ContentRootPath)
-                  .AddJsonFile("vcap-local.json", optional: false, reloadOnChange: true)
+                  .AddJsonFile("vcap-local.json", optional: true, reloadOnChange: true)
                  .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
                  .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true)
                  .AddEnvironmentVariables();
